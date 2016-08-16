@@ -1,0 +1,28 @@
+<!--html { 
+    background: url("https://image.freepik.com/free-vector/vintage-grunge-paper-texture_1048-1540.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}-->
+    
+body {
+      position: relative;
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #chapter1 {padding-top:50px;height:1000px;color: #fff; background-color: #1E88E5;}
+  #chapter2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #chapter3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #chapter4verse1 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #chapter4verse2 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}}
